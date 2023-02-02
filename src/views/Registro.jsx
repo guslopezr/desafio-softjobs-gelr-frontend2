@@ -19,7 +19,7 @@ export default function RegistroForm() {
    // const urlServer = "http://localhost:3000";
     const urlServer = "https://softjobs-gelr-backend-mvc-rev-production.up.railway.app";   
    
-    const endpoint = "/usuarios";
+    const endpoint = "/registrarse"; //probar cambiar /usuarios por /registrarse
     try {
       await axios.post(urlServer + endpoint, usuario);
       alert("Usuario registrado con éxito");

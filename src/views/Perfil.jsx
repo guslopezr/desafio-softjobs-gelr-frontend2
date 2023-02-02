@@ -13,7 +13,7 @@ export default function Home() {
    // const urlServer = "http://localhost:3000";
     const urlServer = "https://softjobs-gelr-backend-mvc-rev-production.up.railway.app";   
    
-    const endpoint = "/usuarios";
+    const endpoint = "/perfil"; // probar cambiar /usuarios por /perfil
     const token = localStorage.getItem("token");
 
     try {
