@@ -20,7 +20,7 @@ export default function RegistroForm() {
 
   const iniciarSesion = async () => {
  //   const urlServer = "http://localhost:3000";   
-    const urlServer = "https://softjobs-gelr-backend-mvc-rev.vercel.app";   
+    const urlServer = "https://softjobs-gelr-backend-mvc-rev-production.up.railway.app";   
     
     
     const endpoint = "/login";
